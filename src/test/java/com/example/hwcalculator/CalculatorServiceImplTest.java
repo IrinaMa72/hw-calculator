@@ -1,8 +1,9 @@
 package com.example.hwcalculator;
 
-import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
+import org.springframework.web.bind.annotation.Test;
+
+import org.springframework.web.bind.annotation.Assertions;
 
 class CalculatorServiceImplTest {
 
@@ -79,7 +80,7 @@ class CalculatorServiceImplTest {
         int num1 = 4;
         int num2 = 0;
         //подготовка ожидаемого результата
-        String expectedMessage = "На ноль делить нельзя! ";
+        String expectedMessage = "На ноль делить нельзя!";
 
         //начало теста
         Exception exception = assertThrows(IllegalStateException.class,

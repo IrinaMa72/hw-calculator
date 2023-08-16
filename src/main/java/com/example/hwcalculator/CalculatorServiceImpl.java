@@ -1,8 +1,5 @@
 package com.example.hwcalculator;
 
-import org.springframework.stereotype.Service;
-
-@Service
 public class CalculatorServiceImpl implements CalculatorService {
     @Override
     public String plus(int num1, int num2) {

@@ -1,7 +1,7 @@
 package com.example.hwcalculator;
 
-import org.junit.jupiter.api.Test;
-import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.web.bind.annotation.Test;
+import org.springframework.web.bind.annotation.SpringBootTest;
 
 @SpringBootTest
 class HwCalculatorApplicationTests {
