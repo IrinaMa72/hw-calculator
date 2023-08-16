@@ -1,9 +1,7 @@
 package com.example.hwcalculator;
 
-
-import org.springframework.web.bind.annotation.Test;
-
-import org.springframework.web.bind.annotation.Assertions;
+import static org.junit.jupiter.api.Assertions.*;
+import org.junit.jupiter.api.Test;
 
 class CalculatorServiceImplTest {
 

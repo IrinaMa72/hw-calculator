@@ -1,15 +1,13 @@
 package com.example.hwcalculator;
 
-import org.springframework.web.bind.annotation.ParameterizedTest;
-import org.springframework.web.bind.annotation.Arguments;
-import org.springframework.web.bind.annotation.MethodSource;
+import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.MethodSource;
+import org.junit.jupiter.params.provider.Arguments;
 
 import java.util.stream.Stream;
-
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-class CalculatorServiceImplParametrizedTest {
-
+public class CalculatorServiceImplParametrizedTest {
     private final CalculatorService calculatorService = new CalculatorServiceImpl();
 
     public static Stream<Arguments> plusParams() {

@@ -1,7 +1,7 @@
 package com.example.hwcalculator;
 
-import org.springframework.web.bind.annotation.Test;
-import org.springframework.web.bind.annotation.SpringBootTest;
+import org.springframework.boot.test.context.SpringBootTest;
+import org.testng.annotations.Test;
 
 @SpringBootTest
 class HwCalculatorApplicationTests {
