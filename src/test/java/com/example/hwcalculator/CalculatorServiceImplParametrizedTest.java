@@ -10,6 +10,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class CalculatorServiceImplParametrizedTest {
     private final CalculatorService calculatorService = new CalculatorServiceImpl();
 
+
     public static Stream<Arguments> plusParams() {
         return Stream.of(
                 Arguments.of(2, 2, TestUtils.stringResult(2, 2, "4", "+")),
