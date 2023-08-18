@@ -24,9 +24,9 @@ public class CalculatorServiceImpl implements CalculatorService {
     public String divide(int num1, int num2) {
 
         if (num2 == 0) {
-            return "На ноль делить нельзя!";
+            throw new IllegalStateException("На ноль делить нельзя!");
         } else {
-            double result = (double) num1 / num2;
+             double result = (double) num1 / num2;
             return stringResult(num1, num2, String.valueOf(result), ":");
 
         }
